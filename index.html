@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
     <title>@bishalqx980 - Profile</title>
     <style>
@@ -32,6 +33,7 @@
         }
         .img {
             width: 200px;
+            height: 200px;
             border: solid rgb(0, 100, 180);
             border-radius: 100%;
             padding: 5px;
@@ -55,8 +57,14 @@
     </style>
     <script>
         function load() {
-            var get = new Date().getFullYear()
-            document.getElementById("year").innerHTML = get 
+            var getyear = new Date().getFullYear()
+            document.getElementById("year").innerHTML = getyear
+            // width fix
+            var checkwidth = screen.width
+            if(checkwidth < "500") {
+                alert("Your Screen Width is " + checkwidth + "px. Minimum Width is 500px for this Webpage. So you may face some Graphical Issue!")
+                document.getElementById("changeWidth").style.display = "block"
+            }
         }
     </script>
 </head>
@@ -64,7 +72,7 @@
     <div class="head">
         <a href="./index.html">@bishalqx980</a>
     </div><br>
-    <div class="main">
+    <div class="main" id="changeWidth">
         <img class="img" src="./images/img.jpg" alt="">
         <div class="main2">
             <p>Name: MD. Bishal Hasan Bhuiyan</p>
