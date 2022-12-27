@@ -4,72 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-    <title>bishalqx980</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <title>@bishalqx980 - Profile</title>
     <style>
         body {
-            width: 100%;
-            height: 100%;
-            margin: 0;
-            padding: 0;
-            width: 70%;
-            margin: auto;
-            background-color: rgb(255, 255, 255);
+            background-color: rgb(32, 33, 36);
+            color: rgb(150, 150, 150);
             font-family: sans-serif;
+            width: 80%;
+            margin: auto;
         }
-        .topdiv {
-            background-color: rgb(250, 250, 250);
-            border: solid rgb(250, 250, 250);
-            border-radius: 2px;
-            box-shadow: 0px 0px 2px;
-            padding: 7px;
+        .head {
+            border: solid 2px rgb(53, 54, 58);
             margin-top: 1%;
-            overflow: auto;
+            padding: 10px;
+            border-radius: 5px;
         }
-        .link {
-            color: rgb(0, 150, 255);
-            float: right;
-            text-align: center;
-            width: 50px;
+        a {
+            color: rgb(150, 150, 150);
+            text-decoration: none;
+            font-weight: bold;
         }
-        .name0 {
-            color: rgb(0, 150, 255);
+        a:hover {
+            text-decoration: underline;
         }
-        hr {
-            opacity: 50%;
+        .main {
+            display: flex;
         }
-        .imgdiv {
-            width: 256px;
-            text-align: center;
-            margin-right: 100%;
+        .img {
+            width: 200px;
+            border: solid rgb(0, 100, 180);
+            border-radius: 100%;
+            padding: 5px;
         }
-        .avatar0 {
-            width: 256px;
-            border-radius: 10px;
+        .main2 {
+            border: solid 1px rgb(53, 54, 58);
+            border-radius: 5px;
+            margin-left: 5%;
+            width: 100%;
+            padding: 5px;
         }
-        .conimg {
-            width: 32px;
+        .img2 {
+            width: 28px;
+            padding: 2px;
+        }
+        .bottom {
+            bottom: 0;
+            position: fixed;
+            font-family: monospace;
         }
     </style>
+    <script>
+        function load() {
+            var get = new Date().getFullYear()
+            document.getElementById("year").innerHTML = get 
+        }
+    </script>
 </head>
-<body>
-    <div class="topdiv">
-        <a href="about.html" class="link">About</a>
-        <a href="index.html" class="link">Home</a>
+<body onload="load()">
+    <div class="head">
+        <a href="./index.html">@bishalqx980</a>
     </div><br>
-    <h1 class="name0">bishalqx980</h1>
-    <hr>
-    <div>
-        <div class="imgdiv">
-            <img class="avatar0" src="images/img.jpg" alt="">
-            <br>
-            <a href="mailto:bishalqx680@gmail.com" target="_blank"><img class="conimg" src="images/Mail.png" alt=""></a>
-            <a href="https://www.youtube.com/@bishalqx980" target="_blank"><img class="conimg" src="images/YouTube.png" alt=""></a>
-            <a href="http://github.com/bishalqx980" target="_blank"><img class="conimg" src="images/GitHub.png" alt=""></a>
-            <a href="http://facebook.com/bishalqx980" target="_blank"><img class="conimg" src="images/Facebook.png" alt=""></a>
-            <a href="http://twitter.com/bishalqx980" target="_blank"><img class="conimg" src="images/Twitter.png" alt=""></a>
-            <a href="http://t.me/bishalqx980" target="_blank"><img class="conimg" src="images/Telegram.png" alt=""></a>
+    <div class="main">
+        <img class="img" src="./images/img.jpg" alt="">
+        <div class="main2">
+            <p>Name: MD. Bishal Hasan Bhuiyan</p>
+            <p>Date of Birth: 02-April-2005</p>
+            <p>Hobby: 💻 Coding, 🎮 Playing Video Games, 📘 Reading, 📡 Discover Something, Many More.</p>
+            <p>My Social Media Link's: 👇</p>
+            <a href="mailto:bishalqx680@gmail.com" target="_blank"><img class="img2" src="./images/Mail.png" alt=""></a>
+            <a href="http://facebook.com/bishalqx980" target="_blank"><img class="img2" src="./images/Facebook.png" alt=""></a>
+            <a href="http://twitter.com/bishalqx980" target="_blank"><img class="img2" src="./images/Twitter.png" alt=""></a>
+            <a href="http://github.com/bishalqx980" target="_blank"><img class="img2" src="./images/GitHub.png" alt=""></a>
+            <a href="http://t.me/bishalqx980" target="_blank"><img class="img2" src="./images/Telegram.png" alt=""></a>
+            <a href="http://youtube.com/@bishalqx980" target="_blank"><img class="img2" src="./images/YouTube.png" alt=""></a>
         </div>
     </div>
+    <p class="bottom">Copyright: <span id="year"></span> | <a href="./index.html">@bishalqx980</a></p>
 </body>
 </html>
