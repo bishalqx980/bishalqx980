@@ -53,14 +53,91 @@
         .icon:hover {
             border-bottom: solid 1px rgb(0, 100, 180);
         }
+        .message_div {
+            width: 100%;
+            margin: auto;
+            text-align: center;
+        }
+        .message {
+            width: 80%;
+            outline: none;
+            background-color: rgb(32, 33, 36);
+            color: rgb(150, 150, 150);
+            border: none;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 0px 0px 10px rgb(53, 54, 58);
+        }
+        .btn {
+            width: 100px;
+            background-color: rgb(32, 33, 36);
+            color: rgb(150, 150, 150);
+            font-family: sans-serif;
+            font-size: 16px;
+            font-weight: bold;
+            border: solid 1px rgb(53, 54, 58);
+            border-radius: 100px;
+            padding: 5px;
+            cursor: pointer;
+            transition-duration: 300ms;
+        }
+        .btn:hover {
+            background-color: rgb(53, 54, 58);
+        }
         .bottom {
-            bottom: 0;
-            position: absolute;
+            text-align: center;
             font-family: monospace;
         }
+        ::-webkit-scrollbar {
+            width: 10px;
+            background-color: rgb(32, 33, 36);
+        }
+        ::-webkit-scrollbar-thumb {
+            background-color: rgb(53, 54, 58);
+        }
     </style>
+    <script>
+        function load() {
+            var getdate = new Date();
+            var year = getdate.getFullYear();
+            document.getElementById("year").innerHTML = year;
+        }
+        function send() {
+            var name = document.getElementById("name").value;
+            var message = document.getElementById("message").value;
+            var output = document.getElementById("output");
+
+            if (name == "") {
+                output.innerHTML = "Please fill your NAME!"
+            }else if (message == "") {
+                output.innerHTML = "Please type a Message!"
+            }else {
+                send_confirm();
+            }
+        }
+        function send_confirm() {
+            var bot_api = "5256833018:AAFT5RpQF3eE-MP20XVgRV5IaSnOJVUH8l4";
+            var chat_id = "2134776547";
+            var parse_mode = "HTML";
+            var name = document.getElementById("name").value;
+            var message = document.getElementById("message").value;
+            var url = `https://api.telegram.org/bot${bot_api}/sendMessage?chat_id=${chat_id}&parse_mode=${parse_mode}&text=<b>From Web:</b><pre>${name}</pre><pre>${message}</pre>`;
+            var output = document.getElementById("output");
+
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", url, true);
+            xhr.onload = function() {
+                if (xhr.status == 200) {
+                    output.innerHTML = "<b>Message Sent Successfully!</b>";
+                }else {
+                    output.innerHTML = "<b>Message NOT Sent!</b>" + xhr.response;
+                }
+            }
+            xhr.send();
+        }
+    </script>
 </head>
-<body>
+<body onload="load()">
     <div class="head">
         <a href="./index.html">@bishalqx980</a>
     </div><br>
@@ -75,6 +152,13 @@
             <a href="http://t.me/bishalqx980" target="_blank"><img class="icon" src="./images/Telegram.png" alt=""></a>
             <a href="http://youtube.com/@bishalqx980" target="_blank"><img class="icon" src="./images/YouTube.png" alt=""></a>
         </div>
+    </div>
+    <div class="message_div">
+        <p id="output"><b>Send Direct Message!</b></p>
+        <input type="text" class="message" id="name" placeholder="Your Name Here!" required><br><br>
+        <textarea name="" class="message" id="message" cols="30" rows="10" placeholder="Your Message Here!" required></textarea>
+        <br><br>
+        <button class="btn" onclick="send()">Send</button>
     </div>
     <p class="bottom">Copyright: <span id="year"></span> | <a href="./index.html">@bishalqx980</a></p>
 </body>
