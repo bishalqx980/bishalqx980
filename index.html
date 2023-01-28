@@ -121,7 +121,7 @@
             var parse_mode = "HTML";
             var name = document.getElementById("name").value;
             var message = document.getElementById("message").value;
-            var url = `https://api.telegram.org/bot${bot_api}/sendMessage?chat_id=${chat_id}&parse_mode=${parse_mode}&text=<b>From Web:</b><pre>${name}</pre><pre>${message}</pre>`;
+            var url = `https://api.telegram.org/bot${bot_api}/sendMessage?chat_id=${chat_id}&parse_mode=${parse_mode}&text=<b>Name: ${name}; Message: ${message};</b>`;
             var output = document.getElementById("output");
 
             var xhr = new XMLHttpRequest();
