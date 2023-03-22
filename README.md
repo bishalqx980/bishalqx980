@@ -10,9 +10,10 @@
 <a href="http://youtube.com/@bishalqx980"><img src="https://bishalqx980.github.io/bishalqx980/images/YouTube.png" alt="" width="28px"></a>
 
 <h3 align="left">Languages:</h3>
-<img src="https://bishalqx980.github.io/bishalqx980/images/html5.svg" alt="" width="40" height="40">
+<p><img src="https://bishalqx980.github.io/bishalqx980/images/html5.svg" alt="" width="40" height="40">
 <img src="https://bishalqx980.github.io/bishalqx980/images/css3.svg" alt="" width="40" height="40">
 <img src="https://bishalqx980.github.io/bishalqx980/images/js.svg" alt="" width="40" height="40">
+</p>
 
 <p align="right"><img width="300px" src="https://github-readme-stats.vercel.app/api/top-langs?username=bishalqx980&show_icons=true&locale=en&layout=compact" alt=""></p>
 <p align="right"><img width="300px" src="https://github-readme-stats.vercel.app/api?username=bishalqx980&show_icons=true&locale=en" alt=""></p>
