@@ -9,14 +9,14 @@
 <a href="http://t.me/bishalqx980"><img src="https://bishalqx980.github.io/bishalqx980/images/Telegram.png" alt="" width="28px"></a>
 <a href="http://youtube.com/@bishalqx980"><img src="https://bishalqx980.github.io/bishalqx980/images/YouTube.png" alt="" width="28px"></a>
 
-<h3 align="left">Languages:</h3>
+<h3 align="left">Top Languages:</h3>
 <p><img src="https://bishalqx980.github.io/bishalqx980/images/html5.svg" alt="" width="40" height="40">
 <img src="https://bishalqx980.github.io/bishalqx980/images/css3.svg" alt="" width="40" height="40">
 <img src="https://bishalqx980.github.io/bishalqx980/images/js.svg" alt="" width="40" height="40">
 </p>
 
-<p align="center">
+<p align="left">
 <img width="300px" src="https://github-readme-stats.vercel.app/api/top-langs?username=bishalqx980&show_icons=true&locale=en&layout=compact" alt="">
-<img width="300px" src="https://github-readme-stats.vercel.app/api?username=bishalqx980&show_icons=true&locale=en" alt="">
-<img width="300px" src="https://github-readme-streak-stats.herokuapp.com/?user=bishalqx980&" alt="">
+<img width="310px" src="https://github-readme-stats.vercel.app/api?username=bishalqx980&show_icons=true&locale=en" alt="">
+<img width="320px" src="https://github-readme-streak-stats.herokuapp.com/?user=bishalqx980&" alt="">
 </p>
