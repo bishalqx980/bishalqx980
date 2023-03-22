@@ -15,7 +15,7 @@
 <img src="https://bishalqx980.github.io/bishalqx980/images/js.svg" alt="" width="40" height="40">
 </p>
 
-<p align="right">
+<p align="left">
 <img width="300px" src="https://github-readme-stats.vercel.app/api/top-langs?username=bishalqx980&show_icons=true&locale=en&layout=compact" alt="">
 <img width="332px" src="https://github-readme-stats.vercel.app/api?username=bishalqx980&show_icons=true&locale=en" alt="">
 <img width="352px" src="https://github-readme-streak-stats.herokuapp.com/?user=bishalqx980&" alt="">
