@@ -1,6 +1,6 @@
 <h1 align="center">@bisahlqx980</h1>
 <b align="left"> Getting Started from  January 2023 (All old Commits Deleted)</b>
-<br>
+---------------
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=bishalqx980&label=Profile%20views&color=0e75b6&style=flat" alt="bishalqx980" /> </p>
 
 <h3 align="left">Languages:</h3>
