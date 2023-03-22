@@ -1,11 +1,11 @@
-<h1 align="center">Hi 👋, I'm Bishal</h1>
+<h1 align="center" style="color: rgb(0, 100, 255);font-family: sans-serif;">@bisahlqx980</h1>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=bishalqx980&label=Profile%20views&color=0e75b6&style=flat" alt="bishalqx980" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=bishalqx980" alt="bishalqx980" /></a> </p>
 
 <p align="left"> <a href="https://twitter.com/bishalqx980" target="blank"><img src="https://img.shields.io/twitter/follow/bishalqx980?logo=twitter&style=for-the-badge" alt="bishalqx980" /></a> </p>
 
-- 📫 How to reach me **bishalqx680@gmail.com**
+
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
