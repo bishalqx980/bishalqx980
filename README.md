@@ -1,13 +1,19 @@
 <h1 align="center">@bisahlqx980</h1>
-<p align="center">Getting Started from  January 2023 (All old Commits Deleted)</p>
+<h3 align="center">Getting Started from  January 2023 (All old Commits Deleted)</h3>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=bishalqx980&label=Profile%20views&color=0096FF&style=flat" alt="bishalqx980"></p>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=bishalqx980&label=Profile%20views&color=0e75b6&style=flat" alt="bishalqx980" /> </p>
+<h3 align="left">Socail Media:</h3>
+<a href="mailto:bishalqx680@gmail.com"><img src="https://bishalqx980.github.io/bishalqx980/images/Mail.png" alt="" width="28px"></a>
+<a href="http://facebook.com/bishalqx980"><img src="https://bishalqx980.github.io/bishalqx980/images/Facebook.png" alt="" width="28px"></a>
+<a href="http://twitter.com/bishalqx980"><img src="https://bishalqx980.github.io/bishalqx980/images/Twitter.png" alt="" width="28px"></a>
+<a href="http://t.me/bishalqx980"><img src="https://bishalqx980.github.io/bishalqx980/images/Telegram.png" alt="" width="28px"></a>
+<a href="http://youtube.com/@bishalqx980"><img src="https://bishalqx980.github.io/bishalqx980/images/YouTube.png" alt="" width="28px"></a>
 
 <h3 align="left">Languages:</h3>
-<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> </p>
+<img src="https://bishalqx980.github.io/bishalqx980/images/html5.svg" alt="" width="40" height="40">
+<img src="https://bishalqx980.github.io/bishalqx980/images/css3.svg" alt="" width="40" height="40">
+<img src="https://bishalqx980.github.io/bishalqx980/images/js.svg" alt="" width="40" height="40">
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=bishalqx980&show_icons=true&locale=en&layout=compact" alt="bishalqx980" width="300px"></p>
-
-<p><img align="center" src="https://github-readme-stats.vercel.app/api?username=bishalqx980&show_icons=true&locale=en" alt="bishalqx980" width="300px"></p>
-
-<p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=bishalqx980&" alt="bishalqx980" width="300px"></p>
+<p align="right"><img width="300px" src="https://github-readme-stats.vercel.app/api/top-langs?username=bishalqx980&show_icons=true&locale=en&layout=compact" alt=""></p>
+<p align="right"><img width="300px" src="https://github-readme-stats.vercel.app/api?username=bishalqx980&show_icons=true&locale=en" alt=""></p>
+<p align="right"><img width="300px" src="https://github-readme-streak-stats.herokuapp.com/?user=bishalqx980&" alt=""></p>
