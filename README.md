@@ -7,6 +7,7 @@
 <a href="http://facebook.com/bishalqx980"><img src="https://bishalqx980.github.io/bishalqx980/images/Facebook.png" alt="" width="28px"></a>
 <a href="http://twitter.com/bishalqx980"><img src="https://bishalqx980.github.io/bishalqx980/images/Twitter.png" alt="" width="28px"></a>
 <a href="http://t.me/bishalqx980"><img src="https://bishalqx980.github.io/bishalqx980/images/Telegram.png" alt="" width="28px"></a>
+<a href="https://discord.com/users/1008057534067773470"><img src="https://bishalqx980.github.io/bishalqx980/images/Discord.png" alt="" width="28px"></a>
 <a href="http://youtube.com/@bishalqx980"><img src="https://bishalqx980.github.io/bishalqx980/images/YouTube.png" alt="" width="28px"></a>
 
 <h3 align="left">Top Languages:</h3>
