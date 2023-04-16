@@ -43,15 +43,30 @@
         .icon_div {
             border: solid 1px rgb(53, 54, 58);
             border-radius: 100px;
-            width: 300px;
+            width: 320px;
             margin: auto;
         }
         .icon {
             width: 28px;
             padding: 5px;
+            transition-duration: 300ms;
         }
         .icon:hover {
-            border-bottom: solid 1px rgb(0, 100, 180);
+            transform: scale(1.2,1.2);
+        }
+        .donate_div {
+            border: solid 1px rgb(53, 54, 58);
+            border-radius: 100px;
+            width: 300px;
+            margin: auto;
+            transition-duration: 300ms;
+        }
+        .donate_div:hover {
+            box-shadow: 0px 0px 10px rgb(40, 170, 225);
+        }
+        .donate {
+            width: 200px;
+            padding: 2px;
         }
         .message_div {
             width: 100%;
@@ -120,7 +135,7 @@
             }
         }
         function send_confirm() {
-            var bot_api = "5256833018:AAGDDJt_iSP-19J8UaCO6flmpKZDhY1KAu0";
+            var bot_api = "";
             var chat_id = "2134776547";
             var parse_mode = "HTML";
             var name = document.getElementById("name").value;
@@ -148,6 +163,8 @@
     <div class="main_div">
         <img class="img" src="./images/img.jpg" alt="">
         <br><br>
+        <a href="https://bishalqx980.github.io/" target="_blank"><button class="btn">Website</button></a>
+        <br><br>
         <div class="icon_div">
             <a href="mailto:bishalqx680@gmail.com" target="_blank"><img class="icon" src="./images/Mail.png" alt=""></a>
             <a href="http://facebook.com/bishalqx980" target="_blank"><img class="icon" src="./images/Facebook.png" alt=""></a>
@@ -156,6 +173,10 @@
             <a href="http://t.me/bishalqx980" target="_blank"><img class="icon" src="./images/Telegram.png" alt=""></a>
             <a href="https://discord.com/users/1008057534067773470" target="_blank"><img class="icon" src="./images/Discord.png" alt=""></a>
             <a href="http://youtube.com/@bishalqx980" target="_blank"><img class="icon" src="./images/YouTube.png" alt=""></a>
+        </div>
+        <br>
+        <div class="donate_div">
+            <a href="./donate.html" target="_blank"><img class="donate" src="./images/donate.png" alt=""></a>
         </div>
     </div>
 <!--
