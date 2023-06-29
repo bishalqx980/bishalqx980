@@ -5,10 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PlayStationJB - 127.0.0.1</title>
+    <style>
+        body {
+            width: 100%;
+            margin: auto;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
-    <script async src="https://telegram.org/js/telegram-widget.js?22" data-telegram-post="PlayStationJB/4" data-width="100%"></script>
-    <br>
-    <script async src="https://telegram.org/js/telegram-widget.js?22" data-telegram-post="PlayStationJB/9" data-width="100%"></script>
+    <div style="display: flex;">
+        <div style="flex: 50%;">
+            <script async src="https://telegram.org/js/telegram-widget.js?22" data-telegram-post="PlayStationJB/4" data-width="100%"></script>
+            <br>
+            <script async src="https://telegram.org/js/telegram-widget.js?22" data-telegram-post="PSJBNews/542" data-width="100%"></script>
+        </div>
+        <div style="flex: 50%;">
+            <script async src="https://telegram.org/js/telegram-widget.js?22" data-telegram-discussion="PSJBNews/542" data-comments-limit="5" data-colorful="1"></script>
+        </div>
+    </div>
 </body>
 </html>
