@@ -11,7 +11,8 @@
 <a href="https://discord.com/users/1008057534067773470"><img src="https://bishalqx980.github.io/bishalqx980/images/Discord.png" alt="" width="28px"></a>
 <a href="http://youtube.com/@bishalqx980"><img src="https://bishalqx980.github.io/bishalqx980/images/YouTube.png" alt="" width="28px"></a>
 
-<h3 align="left">Top Languages:</h3>
+<h3 align="left">Top Language's:</h3>
+<p><img src="https://bishalqx980.github.io/bishalqx980/images/python.svg" alt="" width="40" height="40">
 <p><img src="https://bishalqx980.github.io/bishalqx980/images/html5.svg" alt="" width="40" height="40">
 <img src="https://bishalqx980.github.io/bishalqx980/images/css3.svg" alt="" width="40" height="40">
 <img src="https://bishalqx980.github.io/bishalqx980/images/js.svg" alt="" width="40" height="40">
