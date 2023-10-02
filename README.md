@@ -24,3 +24,6 @@
 <img width="332px" src="https://github-readme-stats.vercel.app/api?username=bishalqx980&show_icons=true&locale=en" alt="">
 <img width="352px" src="https://github-readme-streak-stats.herokuapp.com/?user=bishalqx980&" alt="">
 </p>
+
+<br clear="both">
+<img src="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/snake.svg" alt="Snake animation" />
