@@ -25,5 +25,5 @@
 <img width="352px" src="https://github-readme-streak-stats.herokuapp.com/?user=bishalqx980&" alt="">
 </p>
 
-<br clear="both">
-<img src="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/snake.svg" alt="Snake animation" />
+<br>
+<img src="https://raw.githubusercontent.com/bishalqx980/bishalqx980/output/snake.svg" alt="">
