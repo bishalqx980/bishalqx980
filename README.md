@@ -1,4 +1,4 @@
-<p align="left">@bishalqx980</p>
+<a href="https://bishalqx980.github.io/bishalqx980/">@bishalqx980</a>
 <p align="left">22-January-2023 ⇒ All GitHub commits Deleted ✅ Since 2022 ~ ↺ Started OVER from beginning !!</p>
 <p align="left">💻 Working on PRIVATE project</p>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=bishalqx980&label=Profile%20views&color=0096FF&style=flat" alt="bishalqx980"></p>
@@ -28,4 +28,4 @@
 <br>
 </p>
 <br>
-<img width="100%" src="https://bishalqx980.github.io/bishalqx980/images/BISHAL.png" alt="">
+<img width="320px" src="https://bishalqx980.github.io/bishalqx980/images/BISHAL.png" alt="">
