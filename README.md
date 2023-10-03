@@ -24,6 +24,5 @@
 <img width="332px" src="https://github-readme-stats.vercel.app/api?username=bishalqx980&show_icons=true&locale=en" alt="">
 <img width="352px" src="https://github-readme-streak-stats.herokuapp.com/?user=bishalqx980&" alt="">
 </p>
-
 <br>
-<img src="https://raw.githubusercontent.com/bishalqx980/bishalqx980/output/snake.svg" alt="">
+<img width="100%" src="https://bishalqx980.github.io/bishalqx980/images/BISHAL.png" alt="">
