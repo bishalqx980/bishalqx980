@@ -1,6 +1,6 @@
-<p align="right">@bishalqx980</p><br>
-<p align="right">22-January-2023 ⇒ All GitHub commits Deleted ✅ Since 2022 ~ ↺ Started OVER from beginning !!</p><br>
-<p align="right">Working on PRIVATE project 💻</p><br>
+<p align="right">@bishalqx980</p>
+<p align="right">22-January-2023 ⇒ All GitHub commits Deleted ✅ Since 2022 ~ ↺ Started OVER from beginning !!</p>
+<p align="right">Working on PRIVATE project 💻</p>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=bishalqx980&label=Profile%20views&color=0096FF&style=flat" alt="bishalqx980"></p>
 <a href="https://bishalqx980.github.io/">Website</a>
 <h3 align="left">Socail Media:</h3>
