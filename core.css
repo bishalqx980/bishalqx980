@@ -34,11 +34,11 @@ a:hover {
     height: 200px;
     border: solid 2px;
     border-radius: 100%;
-    box-shadow: 0px 0px 20px;
+    box-shadow: 0px 0px 20px rgb(0, 200, 255);
     padding: 5px;
-    animation: loop_color 10s infinite;
+    /* animation: loop_color 10s infinite; */
 }
-@keyframes loop_color {
+/* @keyframes loop_color {
     0% {
         color: rgb(0, 150, 255);
     }
@@ -54,7 +54,7 @@ a:hover {
     100% {
         color: rgb(0, 150, 255);
     }
-}
+} */
 .icon_div {
     width: 100%;
     max-width: 320px;
