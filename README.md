@@ -4,9 +4,9 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=bishalqx980&label=Profile%20views&color=0096FF&style=flat" alt="bishalqx980"></p>
 <a href="https://bishalqx980.github.io/">Website</a>
 <h3 align="left">Socail Media:</h3>
-<a href="mailto:bishalqx680@gmail.com"><img src="https://bishalqx980.github.io/bishalqx980/images/Mail.png" alt="" width="28px"></a>
+<a href="mailto:bishalqx680@gmail.com"><img src="https://bishalqx980.github.io/bishalqx980/images/Gmail.png" alt="" width="28px"></a>
 <a href="http://facebook.com/bishalqx980"><img src="https://bishalqx980.github.io/bishalqx980/images/Facebook.png" alt="" width="28px"></a>
-<a href="http://twitter.com/bishalqx980"><img src="https://bishalqx980.github.io/bishalqx980/images/Twitter.png" alt="" width="28px"></a>
+<a href="http://twitter.com/bishalqx980"><img src="https://bishalqx980.github.io/bishalqx980/images/x.jpeg" alt="" width="28px"></a>
 <a href="http://t.me/bishalqx980"><img src="https://bishalqx980.github.io/bishalqx980/images/Telegram.png" alt="" width="28px"></a>
 <a href="https://discord.com/users/1008057534067773470"><img src="https://bishalqx980.github.io/bishalqx980/images/Discord.png" alt="" width="28px"></a>
 <a href="http://youtube.com/@bishalqx980"><img src="https://bishalqx980.github.io/bishalqx980/images/YouTube.png" alt="" width="28px"></a>
