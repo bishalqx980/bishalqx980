@@ -19,10 +19,13 @@
 <img src="https://bishalqx980.github.io/bishalqx980/images/js.svg" alt="" width="40" height="40">
 </p>
 
-<p align="left">
+<p align="right">
 <img width="300px" src="https://github-readme-stats.vercel.app/api/top-langs?username=bishalqx980&show_icons=true&locale=en&layout=compact" alt="">
+<br>
 <img width="332px" src="https://github-readme-stats.vercel.app/api?username=bishalqx980&show_icons=true&locale=en" alt="">
+<br>
 <img width="352px" src="https://github-readme-streak-stats.herokuapp.com/?user=bishalqx980&" alt="">
+<br>
 </p>
 <br>
 <img width="100%" src="https://bishalqx980.github.io/bishalqx980/images/BISHAL.png" alt="">
