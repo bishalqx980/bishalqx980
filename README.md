@@ -28,4 +28,6 @@
 <br>
 </p>
 <br>
+<img  width="352px" align="center" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=bishalqx980&theme=2077" height="180em">
+<br>
 <img width="320px" src="https://bishalqx980.github.io/bishalqx980/images/BISHAL.png" alt="">
