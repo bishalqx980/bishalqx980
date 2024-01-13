@@ -1,6 +1,13 @@
-[@bishalqx980](https://bishalqx980.github.io/bishalqx980/)
 
-***22-January-2023 ⇒ All GitHub commits Deleted ✅ Since 2022 ~ ↺ Started OVER from beginning !!***
+<p align="center">
+<a href="https://bishalqx980.github.io/bishalqx980/">> @bishalqx980 <</a>
+<br>
+<img width="50%" src="https://bishalqx980.github.io/bishalqx980/images/dev.gif" alt="">
+<br>
+<b><i>22-January-2023 ⇒ All GitHub commits Deleted ✅ Since 2022 ~ ↺ Started OVER from beginning !!</i></b>
+</p>
+
+
 
 > 💻 Working on PRIVATE project :)
 
@@ -15,7 +22,7 @@
 <a href="http://twitter.com/bishalqx980"><img src="https://bishalqx980.github.io/bishalqx980/images/x.jpeg" alt="" width="28px"></a>
 <a href="http://t.me/bishalqx980"><img src="https://bishalqx980.github.io/bishalqx980/images/Telegram.png" alt="" width="28px"></a>
 <a href="https://discord.com/users/1008057534067773470"><img src="https://bishalqx980.github.io/bishalqx980/images/Discord.png" alt="" width="28px"></a>
-<a href="http://youtube.com/@bishalqx980"><img src="https://bishalqx980.github.io/bishalqx980/images/YouTube.png" alt="" width="28px"></a>
+<a href="http://youtube.com/@Svic_"><img src="https://bishalqx980.github.io/bishalqx980/images/YouTube.png" alt="" width="28px"></a>
 
 ### Top Language's:
 
