@@ -4,7 +4,7 @@
 <br>
 <img width="50%" src="https://bishalqx980.github.io/bishalqx980/images/dev.gif" alt="">
 <br>
-<b><i>22-January-2023 ⇒ All GitHub commits Deleted ✅ Since 2022 ~ ↺ Started OVER from beginning !!</i></b>
+<b><i>22-January-2023 ⇒ All GitHub commits Deleted Since 2022 ~ ↺ Started OVER from beginning !!</i></b>
 </p>
 
 
