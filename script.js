@@ -1,38 +1,28 @@
 function load() {
-    var getdate = new Date();
-    var year = getdate.getFullYear();
-    document.getElementById("year").innerHTML = year;
-}
-function send() {
-    var name = document.getElementById("name").value;
-    var message = document.getElementById("message").value;
-    var output = document.getElementById("output");
+    var clock = document.getElementById("clock");
 
-    if (name == "") {
-        output.innerHTML = "Please fill your NAME!"
-    }else if (message == "") {
-        output.innerHTML = "Please type a Message!"
-    }else {
-        send_confirm();
+    var date = new Date;
+    var hour = date.getHours();
+    var minute = date.getMinutes();
+    var format = "AM";
+    if (hour > 12) {
+        var hour = hour - 12;
+        var format = "PM";
     }
-}
-function send_confirm() {
-    var bot_api = "";
-    var chat_id = "2134776547";
-    var parse_mode = "HTML";
-    var name = document.getElementById("name").value;
-    var message = document.getElementById("message").value;
-    var url = `https://api.telegram.org/bot${bot_api}/sendMessage?chat_id=${chat_id}&parse_mode=${parse_mode}&text=<b>Name: ${name}; Message: ${message};</b>`;
-    var output = document.getElementById("output");
 
-    var xhr = new XMLHttpRequest();
-    xhr.open("GET", url, true);
-    xhr.onload = function() {
-        if (xhr.status == 200) {
-            output.innerHTML = "<b>Message Sent Successfully!</b>";
-        }else {
-            output.innerHTML = "<b>Message NOT Sent!</b>" + xhr.response;
-        }
+    if (hour < 10) {
+        var hour = "0" + hour;
     }
-    xhr.send();
+
+    if (minute < 10) {
+        var minute = "0" + minute;
+    }
+    
+    clock.innerHTML = hour + ":" + minute + " " + format;
+
+    var width = screen.availWidth
+    var height = screen.availHeight
+    if (width < 700 || height < 700) {
+        location.href = "./old/"
+    }
 }
