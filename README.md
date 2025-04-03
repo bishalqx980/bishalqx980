@@ -48,9 +48,9 @@
 ![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=for-the-badge&logo=Raspberry-Pi)
 
 # 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=bishalqx980&theme=dark&hide_border=false&include_all_commits=false&count_private=false)
-![](https://nirzak-streak-stats.vercel.app/?user=bishalqx980&theme=dark&hide_border=false)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=bishalqx980&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+![](https://github-readme-stats.vercel.app/api?username=bishalqx980&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br>
+![](https://nirzak-streak-stats.vercel.app/?user=bishalqx980&theme=dark&hide_border=false)<br>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=bishalqx980&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)<br>
 
 ---
 ![](https://komarev.com/ghpvc/?username=bishalqx980&label=Profile%20views&color=0096FF&style=flat&abbreviated=true)
