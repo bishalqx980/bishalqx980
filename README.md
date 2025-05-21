@@ -6,13 +6,12 @@
 - 📫 How to reach me **bishalqx680@gmail.com**
 
 ## 🌐 Socials:
-<a href="mailto:bishalqx680@gmail.com" target="_blank"><img style="width: 28px;padding: 5px;" src="./images/Gmail.png" alt=""></a>
-<a href="http://facebook.com/bishalqx980" target="_blank"><img style="width: 28px;padding: 5px;" src="./images/Facebook.png" alt=""></a>
-<a href="http://twitter.com/bishalqx980" target="_blank"><img style="width: 28px;padding: 5px;" src="./images/x.jpeg" alt=""></a>
-<a href="http://github.com/bishalqx980" target="_blank"><img style="width: 28px;padding: 5px;" src="./images/GitHub.png" alt=""></a>
-<a href="http://t.me/bishalqx980" target="_blank"><img style="width: 28px;padding: 5px;" src="./images/Telegram.png" alt=""></a>
-<a href="https://discord.com/users/1008057534067773470" target="_blank"><img style="width: 28px;padding: 5px;" src="./images/Discord.png" alt=""></a>
-<a href="http://youtube.com/@SVic_" target="_blank"><img style="width: 28px;padding: 5px;" src="./images/YouTube.png" alt=""></a>
+<a href="mailto:bishalqx680@gmail.com" target="_blank"><img style="width: 28px;padding: 5px;" src="./assets/images/social_icons/gmail.png" alt=""></a>
+<a href="http://facebook.com/bishalqx980" target="_blank"><img style="width: 28px;padding: 5px;" src="./assets/images/social_icons/facebook.png" alt=""></a>
+<a href="http://twitter.com/bishalqx980" target="_blank"><img style="width: 28px;padding: 5px;" src="./assets/images/social_icons/twitter.png" alt=""></a>
+<a href="http://t.me/bishalqx980" target="_blank"><img style="width: 28px;padding: 5px;" src="./assets/images/social_icons/telegram.png" alt=""></a>
+<a href="https://discord.com/users/1008057534067773470" target="_blank"><img style="width: 28px;padding: 5px;" src="./assets/images/social_icons/discord.png" alt=""></a>
+<a href="http://youtube.com/@SVic_" target="_blank"><img style="width: 28px;padding: 5px;" src="./assets/images/social_icons/youtube.png" alt=""></a>
 
 # 💻 Tech Stack:
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)

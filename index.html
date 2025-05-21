@@ -2,35 +2,66 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
-    <link id="stylesheet" rel="stylesheet" href="dark_style.css">
-    <script src="script.js"></script>
-    <title>@bishalqx980 - Profile</title>
+    <title>bishalqx980</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="./main.js"></script>
 </head>
 <body onload="load()">
-    <div class="head">
-        <a href="./index.html">@bishalqx980</a>
-        <span> || </span>
-        <a href="https://bishalqx980.github.io/">Home</a>
-        <button class="style_changer_btn" id="theme_changer_btn" onclick="change_theme()">Light Theme</button>
-    </div><br>
-    <div class="main_div">
-        <img class="img" src="./images/img.jpg" alt="">
-        <br><br>
-        <a href="https://bishalqx980.github.io/me/index.html">Send me message</a>
-        <br><br>
-        <div class="icon_div">
-            <a href="mailto:bishalqx680@gmail.com" target="_blank"><img class="icon" src="./images/Gmail.png" alt=""></a>
-            <a href="http://facebook.com/bishalqx980" target="_blank"><img class="icon" src="./images/Facebook.png" alt=""></a>
-            <a href="http://twitter.com/bishalqx980" target="_blank"><img class="icon" src="./images/x.jpeg" alt=""></a>
-            <a href="http://github.com/bishalqx980" target="_blank"><img class="icon" src="./images/GitHub.png" alt=""></a>
-            <a href="http://t.me/bishalqx980" target="_blank"><img class="icon" src="./images/Telegram.png" alt=""></a>
-            <a href="https://discord.com/users/1008057534067773470" target="_blank"><img class="icon" src="./images/Discord.png" alt=""></a>
-            <a href="http://youtube.com/@SVic_" target="_blank"><img class="icon" src="./images/YouTube.png" alt=""></a>
+    <div class="container">
+        <div class="blurred-bg"></div>
+        <div class="content">
+            <img src="./assets/images/profile_pic/BISHAL.png" alt="Profile Picture" class="profile-pic">
+            <h1>Bishal Hasan Bhuiyan</h1>
+            <p class="bio">Web Developer | Programmer</p>
+
+            <div class="links">
+                <a href="mailto:bishalqx680@gmail.com" class="link">
+                    <div class="link-icon">
+                        <img class="social-icon" src="./assets/images/social_icons/gmail.png" alt="">
+                    </div>
+                    <div class="link-text">Gmail</div>
+                </a>
+                <a href="http://facebook.com/bishalqx980" class="link">
+                    <div class="link-icon">
+                        <img class="social-icon" src="./assets/images/social_icons/facebook.png" alt="">
+                    </div>
+                    <div class="link-text">Facebook</div>
+                </a>
+                <a href="http://twitter.com/bishalqx980" class="link">
+                    <div class="link-icon">
+                        <img class="social-icon" src="./assets/images/social_icons/twitter.png" alt="">
+                    </div>
+                    <div class="link-text">Twitter (X)</div>
+                </a>
+                <a href="http://t.me/bishalqx980" class="link">
+                    <div class="link-icon">
+                        <img class="social-icon" src="./assets/images/social_icons/telegram.png" alt="">
+                    </div>
+                    <div class="link-text">Telegram</div>
+                </a>
+                <a href="https://discord.com/users/1008057534067773470" class="link">
+                    <div class="link-icon">
+                        <img class="social-icon" src="./assets/images/social_icons/discord.png" alt="">
+                    </div>
+                    <div class="link-text">Discord</div>
+                </a>
+                <a href="https://www.youtube.com/channel/UCpyM6_uwJaorxal_qiQsVLQ" class="link">
+                    <div class="link-icon">
+                        <img class="social-icon" src="./assets/images/social_icons/youtube.png" alt="">
+                    </div>
+                    <div class="link-text">YouTube Channel (@SVic_)</div>
+                </a>
+                <a href="http://github.com/bishalqx980" class="link">
+                    <div class="link-icon">
+                        <img class="social-icon" src="./assets/images/social_icons/github.png" alt="">
+                    </div>
+                    <div class="link-text">GitHub</div>
+                </a>
+            </div>
         </div>
-        <br>
-    <p class="bottom">Copyright: <span id="year"></span> | <a href="./index.html">@bishalqx980</a></p>
+    </div>
+
+    <p class="copyright">Copyright: <span id="from_year"></span> - <span id="current_year"></span></p>
 </body>
 </html>
