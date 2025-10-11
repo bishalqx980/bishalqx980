@@ -1,10 +1,16 @@
-const siteDataPath = "./assets/data.json";
+// Using gist json data instead of local json data (easily editable)
+const siteDataPath = "https://gist.githubusercontent.com/bishalqx980/abf57448c36e2db1a79a42b6cf54a32f/raw/bishalqx980.json"; // ./assets/data.json
 
 document.addEventListener("DOMContentLoaded", async () => {
     // Getting Site JSON data
+    const tempNotify = document.getElementById("temp-notify");
+    tempNotify.innerText = "Loading...";
+
     const siteData = await fetchSiteData();
-    if (!siteData) {
-        alert("Error: Site Data wasn't found!!");
+    if (siteData) {
+        tempNotify.style.display = "none";
+    } else {
+        tempNotify.innerText = "Error: Site data wasn't loaded, please try again!!";
         return;
     }
 

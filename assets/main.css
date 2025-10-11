@@ -6,7 +6,7 @@
 }
 
 body {
-    background: url("./images/bg/wave.jpg") no-repeat center fixed;
+    background: url("./images/bg/abstract.jpg") no-repeat center fixed;
     background-size: cover;
     min-height: 100vh;
     display: flex;
@@ -103,6 +103,7 @@ h1 {
 
 .emailDiv {
     margin-top: 20px;
+    opacity: 30%;
 }
 
 .email {
