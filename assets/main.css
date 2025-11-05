@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Charm", sans-serif;;
 }
 
 body {
-    background: url("./images/bg/abstract.jpg") no-repeat center fixed;
+    background: linear-gradient(145deg, #0d1b2a, #1b263b, #415a77);
     background-size: cover;
     min-height: 100vh;
     display: flex;
@@ -38,7 +40,7 @@ body {
     height: 120px;
     border-radius: 100%;
     object-fit: cover;
-    border: 3px solid rgba(0, 0, 0, 0.15);
+    border: 3px solid rgba(255, 255, 255, 0.05);
     margin-bottom: 20px;
 }
 
