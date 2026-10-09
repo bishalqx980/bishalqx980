@@ -9,6 +9,27 @@
     <script src="./assets/main.js"></script>
 </head>
 <body>
+
+    <div id="enter_screen">
+        <span>Click to Enter...</span>
+    </div>
+
+    <canvas id="audio_visualizer"></canvas>
+
+    <audio id="bg_audio" loop>
+        <source src="./assets/bg.mp3" type="audio/mpeg">
+    </audio>
+
+    <button id="bg_audio_toggle" aria-label="Mute audio">
+        <svg id="audio_icon" viewBox="0 0 24 24"
+            width="24" height="24" fill="none"
+            stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+        </svg>
+    </button>
+
+    <div class="spider-web"></div>
+    
     <div class="container">
         <!-- Buttons will be inside content div -->
         <div id="content">
