@@ -3,6 +3,7 @@
         "name": "Bishal Hasan Bhuiyan",
         "bio": "Web Developer | Programmer",
         "profilePhoto": "./assets/images/profile_pic/CyberGirl.jpg",
+        "profileDecoration": "./assets/images/profile_pic/decoration.png",
         "email": "bishalqx680@gmail.com"
     },
     "buttonsData": {

@@ -170,24 +170,45 @@ body {
     background-color: rgba(0, 0, 0, 0.15);
 }
 
-.profilePic {
+.profileContainer {
+    position: relative;
     width: 120px;
     height: 120px;
-    border-radius: 100%;
+    margin: 0 auto 20px;
+}
+
+.profilePic {
+    display: block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
     object-fit: cover;
     border: 3px solid rgba(255, 255, 255, 0.05);
-    margin-bottom: 20px;
-
     animation: pfpGradient 5s ease-in-out infinite;
+    box-sizing: border-box;
+}
+
+.profileDecoration {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 140px;
+    height: 140px;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+    z-index: 2;
+    pointer-events: none;
 }
 
 @keyframes pfpGradient {
     0%, 100% {
         box-shadow: 0 0 5px rgb(70, 0, 70);
     }
-    50%  {
-        box-shadow: 0 0 20px rgb(170, 0, 255),
-                    0 0 35px rgb(100, 0, 180);
+
+    50% {
+        box-shadow:
+            0 0 20px rgb(170, 0, 255),
+            0 0 35px rgb(100, 0, 180);
     }
 }
 

@@ -33,10 +33,19 @@ document.addEventListener("DOMContentLoaded", async () => {
     const contentDiv = document.getElementById("content");
 
     // Profile Photo
+    const profileContainer = document.createElement("div");
+    profileContainer.classList.add("profileContainer");
+
     const profilePic = document.createElement("img");
-    profilePic.classList = "profilePic";
+    profilePic.classList.add("profilePic");
     profilePic.src = personalInfo.profilePhoto;
-    contentDiv.append(profilePic);
+
+    const decoration = document.createElement("img");
+    decoration.classList.add("profileDecoration");
+    decoration.src = personalInfo.profileDecoration;
+
+    profileContainer.append(profilePic, decoration);
+    contentDiv.append(profileContainer);
 
     // Name
     const name = document.createElement("h1");

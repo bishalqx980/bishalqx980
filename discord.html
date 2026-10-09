@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#090910">
+    <link rel="stylesheet" href="./assets/discord.css">
+    <title>Discord Profile</title>
+</head>
+
+<body>
+    <main class="profile-card" aria-label="Discord profile">
+        <div class="banner" id="banner"></div>
+
+        <div class="profile-content">
+            <div class="identity">
+                <div class="avatar-wrap">
+                    <img class="avatar" id="avatar" alt="Discord avatar">
+                    <img class="decoration" id="decoration" alt="" hidden>
+                    <span class="status-dot offline" id="statusDot"></span>
+                </div>
+
+                <button class="refresh-button" id="refreshButton" type="button">
+                    ↻ Refresh
+                </button>
+            </div>
+
+            <header class="user-heading">
+                <h1 class="username" id="username">Discord Profile</h1>
+                <div class="handle" id="handle">Loading profile...</div>
+                <div class="badges" id="badges"></div>
+            </header>
+
+            <div class="status-line">
+                <span class="mini-dot" id="statusMiniDot"></span>
+                <span id="statusText">Connecting to Lanyard...</span>
+            </div>
+
+            <div class="devices" id="devices" hidden>
+                <span class="device" id="desktopDevice">Desktop</span>
+                <span class="device" id="mobileDevice">Mobile</span>
+            </div>
+
+            <div class="divider"></div>
+
+            <div id="errorBox" class="error-box" role="alert" hidden></div>
+
+            <section class="section" id="spotifySection" hidden>
+                <h2 class="section-heading">♫ Spotify</h2>
+
+                <div class="spotify">
+                    <div class="spotify-top">
+                        <img class="album-art" id="albumArt" alt="Album artwork">
+
+                        <div class="song-info">
+                            <div class="spotify-label">NOW PLAYING</div>
+                            <div class="song-title" id="songTitle"></div>
+                            <div class="song-artist" id="songArtist"></div>
+                            <div class="song-album" id="songAlbum"></div>
+                        </div>
+                    </div>
+
+                    <div class="progress-track">
+                        <div class="progress-bar" id="progressBar"></div>
+                    </div>
+
+                    <div class="progress-times">
+                        <span id="elapsed">0:00</span>
+                        <span id="duration">0:00</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="section-heading">◈ Activities</h2>
+                <div class="activity-list" id="activityList">
+                    <div class="empty">Loading activities...</div>
+                </div>
+            </section>
+
+            <section class="section" id="kvSection" hidden>
+                <h2 class="section-heading">⌘ Custom Information</h2>
+                <div class="kv-list" id="kvList"></div>
+            </section>
+
+            <section class="section">
+                <h2 class="section-heading">◎ Profile Information</h2>
+                <div class="info-list" id="infoList"></div>
+            </section>
+
+            <footer class="footer">
+                <span class="connection loading" id="connection">Connecting</span>
+                <span id="lastUpdated">Waiting for data</span>
+            </footer>
+        </div>
+    </main>
+
+    <script src="./assets/discord.js"></script>
+</body>
+</html>
