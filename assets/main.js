@@ -3,10 +3,10 @@ const siteDataPath = "./assets/data.json"; // ./assets/data.json
 
 document.addEventListener("DOMContentLoaded", async () => {
     // Background Audio
-    bgAudio()
+    bgAudio();
     
     // Animated Title
-    AnimatedTitle()
+    AnimatedTitle();
 
     // Getting Site JSON data
     const tempNotify = document.getElementById("temp-notify");
@@ -126,6 +126,7 @@ function AnimatedTitle() {
 
 
 function bgAudio() {
+    const video = document.getElementById("bg_video");
     const audio = document.getElementById("bg_audio");
     const canvas = document.getElementById("audio_visualizer");
     const ctx = canvas.getContext("2d");
@@ -247,31 +248,52 @@ function bgAudio() {
             audio.muted ? "Unmute audio" : "Mute audio"
         );
 
-        toggle.setAttribute(
-            "aria-pressed",
-            String(audio.muted)
-        );
+        toggle.setAttribute("aria-pressed", String(audio.muted));
+
+        video.style.opacity = audio.muted ? "0" : "";
     }
 
     enterScreen.addEventListener("click", async () => {
         if (entered) return;
 
-        try {
-            await setupAudioVisualizer();
+        entered = true;
+        enterScreen.classList.add("hidden");
 
-            if (audioContext.state === "suspended") {
+        const timeout = new Promise(resolve => {
+            setTimeout(resolve, 2000);
+        });
+
+        try {
+            await Promise.race([
+                setupAudioVisualizer(),
+                timeout
+            ]);
+
+            if (audioContext?.state === "suspended") {
                 await audioContext.resume();
             }
-
-            await audio.play();
-
-            entered = true;
-            enterScreen.classList.add("hidden");
-
-            updateAudioIcon();
         } catch (error) {
-            console.error("Audio playback failed:", error);
+            console.error("Audio setup failed:", error);
         }
+
+        try {
+            if (audio.getAttribute("src") || audio.querySelector("source")?.getAttribute("src")) {
+                await Promise.race([audio.play(), timeout]);
+            }
+        } catch (error) {
+            console.warn("Audio playback unavailable:", error);
+        }
+
+        try {
+            if (video.getAttribute("src") || video.querySelector("source")?.getAttribute("src")) {
+                video.currentTime = 0;
+                await Promise.race([video.play(), timeout]);
+            }
+        } catch (error) {
+            console.warn("Video playback unavailable:", error);
+        }
+
+        updateAudioIcon();
     });
 
     toggle.addEventListener("click", async () => {
